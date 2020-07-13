@@ -1,0 +1,229 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:modpack.png",
+            "posX" : -75,
+            "posY" : -79,
+            "width" : 150,
+            "height" : 150,
+            "alignment" : "center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Одиночная",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : -60,
+            "posY" : -120,
+            "width" : 28,
+            "height" : 28,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:ssp.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },        
+        "multiplayer":
+        {
+            "text" : "Сервер",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : 37,
+            "posY" : -120,
+            "width" : 28,
+            "height" : 28,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:smp.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "goodmc.ru"
+            }
+        },
+        "options":
+        {
+            "text" : "Настройки",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : 87,
+            "posY" : -60,
+            "width" : 28,
+            "height" : 28,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:options.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },		
+        "mods":
+        {
+            "text" : "Моды",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : 87,
+            "posY" : 5,
+            "width" : 28,
+            "height" : 28,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:mods.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "support":
+        {
+            "text" : "Помощь",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : -115,
+            "posY" : -60,
+            "width" : 28,
+            "height" : 28,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:bug.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://goodmc.ru"
+            }
+        },		
+        "changelog":
+        {
+            "text" : "Изменения",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : -120,
+            "posY" : 5,
+            "width" : 34,
+            "height" : 34,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:changelogs.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://goodmc.ru"
+            }
+        },
+        "language":
+        {
+            "text" : "Язык",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : -85,
+            "posY" : 65,
+            "width" : 28,
+            "height" : 28,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:language.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        "website":
+        {
+            "text" : "Форум",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : 50,
+            "posY" : 65,
+            "width" : 28,
+            "height" : 28,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:web.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://goodmc.ru"
+            }
+        },
+        "quit":
+        {
+            "text" : "Выйти",
+			"textOffsetX" : 0,
+			"textOffsetY" : 18,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 3289650,
+            "posX" : -15,
+            "posY" : 82,
+            "width" : 28,
+            "height" : 28,
+			"imageWidth" : 512,
+			"imageHeight" : 512,
+			"alignment" : "center",
+			"texture" : "mainmenu:exit.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },		
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -22,
+            "posY" : 2,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "mainmenu:refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }	
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:background.png",
+			"mode" : "fill"
+		}
+    }
+}

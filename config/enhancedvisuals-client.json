@@ -97,12 +97,12 @@
       "opacity": 1.0,
       "bloodDuration": {
         "min": 500,
-        "max": 1500
+        "max": 600
       },
       "fireSplashes": 1,
       "fireDuration": {
         "min": 100,
-        "max": 1000
+        "max": 600
       },
       "drownSplashes": 4,
       "drownDuration": {
@@ -142,10 +142,10 @@
       "enabled": true,
       "opacity": 1.0,
       "useHealthPercentage": false,
-      "maxHealth": 6,
+      "maxHealth": 3,
       "maxHealthPercentage": 0.3,
       "heartbeatIntensity": 50.0,
-      "heartbeatDuration": 5,
+      "heartbeatDuration": 50,
       "minHeartbeatLength": 15,
       "heartbeatTimeFactor": 100.0,
       "heartbeatVolume": 1.0,
