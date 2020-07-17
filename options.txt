@@ -9,12 +9,12 @@ guiScale:0
 particles:2
 bobView:true
 anaglyph3d:false
-maxFps:25
+maxFps:60
 fboEnable:true
 difficulty:3
 fancyGraphics:true
 ao:2
-renderClouds:true
+renderClouds:false
 resourcePacks:["REVIVED SPACE"]
 incompatibleResourcePacks:[]
 lastServer:
