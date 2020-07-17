@@ -19,6 +19,8 @@ tfc.command.time.set_month_length=Установить длину месяца �
 # Gui
 
 ## Tooltips
+tfc.tooltip.food_expiry_date.days=Кажется, это можно есть еще %s дней.
+tfc.tooltip.hold_shift_for_nutrition_info=Shift для получения информации
 tfc.tooltip.toolclass=§fКласс предмета:§7 %s
 tfc.tooltip.toolclasses=§fКлассы предметов:
 tfc.tooltip.oredictionaryentry=§fИмя в словаре руд:§7 %s
@@ -75,6 +77,10 @@ tfc.tooltip.powderkeg_unseal=
 tfc.tooltip.goldpan.chunkworked=Эта область выглядит переработанной. Вероятно вы не найдете здесь многого.
 tfc.tooltip.smithing_skill=Бонус опыта: %0.1f%%
 tfc.tooltip.crucible_alloy=Содержит %1$d mB %2$s
+tfc.tooltip.nutrition=Питательность:
+tfc.tooltip.nutrition_saturation= - Насыщение: %s%%
+tfc.tooltip.nutrition_water= - Вода: %s%%
+tfc.tooltip.nutrition_nutrient= - %s: %s
 
 ## Animal Tooltips / Messages
 tfc.tooltip.animal.old=Это животное слишком старо для спаривания.
@@ -521,11 +527,11 @@ tfc.enum.day.thursday=Четверг
 tfc.enum.day.friday=Пятница
 tfc.enum.day.saturday=Суббота
 
-tfc.enum.nutrient.carbohydrates=Углеводы
-tfc.enum.nutrient.fat=Жиры
+tfc.enum.nutrient.grain=Зерновые
+tfc.enum.nutrient.vegetables=Овощи
+tfc.enum.nutrient.fruit=Фрукты
 tfc.enum.nutrient.protein=Белки
-tfc.enum.nutrient.minerals=Минералы
-tfc.enum.nutrient.vitamins=Витамины
+tfc.enum.nutrient.dairy=Молочные
 
 #JEI
 jei.category.tfc.alloy=Рецепты сплавления
