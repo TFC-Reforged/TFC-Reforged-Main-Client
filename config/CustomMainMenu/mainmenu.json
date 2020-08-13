@@ -53,7 +53,7 @@
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "goodmc.ru"
+                "ip" : "mjpg.ru:25631"
             }
         },
         "options":
