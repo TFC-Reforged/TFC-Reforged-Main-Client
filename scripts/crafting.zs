@@ -103,3 +103,5 @@ recipes.addShaped(<rustic:liquid_barrel>,
   [logwood,logwood,logwood]]);
 // Крафт исторического справочника
 recipes.addShapeless(<fastlogblock:infoitem>,[<tfgmc:book_cover>,<tfgmc:book_pages>,<tfgmc:glue>,<minecraft:rotten_flesh>]);
+// Крафты TerraFirmaThings
+recipes.remove(<tfcthings:pig_iron_carrot>);
