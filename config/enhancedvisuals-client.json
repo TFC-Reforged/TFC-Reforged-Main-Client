@@ -143,7 +143,7 @@
       "opacity": 1.0,
       "useHealthPercentage": false,
       "maxHealth": 3,
-      "maxHealthPercentage": 0.3,
+      "maxHealthPercentage": 0.2,
       "heartbeatIntensity": 50.0,
       "heartbeatDuration": 50,
       "minHeartbeatLength": 15,
