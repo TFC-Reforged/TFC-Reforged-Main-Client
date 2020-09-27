@@ -11,12 +11,12 @@
             "alignment" : "center"
 		}
     },
-    
+
     "buttons":
     {
         "singleplayer":
         {
-            "text" : "Одиночная",
+            "text" : "\u041e\u0434\u0438\u043d\u043e\u0447\u043d\u0430\u044f",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -29,15 +29,15 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:ssp.png",
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
-        },        
+        },
         "multiplayer":
         {
-            "text" : "Сервер",
+            "text" : "\u0421\u0435\u0440\u0432\u0435\u0440",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -50,7 +50,7 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:smp.png",
-            "action" : 
+            "action" :
             {
                 "type" : "connectToServer",
                 "ip" : "mjpg.ru:25631"
@@ -58,7 +58,7 @@
         },
         "options":
         {
-            "text" : "Настройки",
+            "text" : "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -71,15 +71,15 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:options.png",
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
-        },		
+        },
         "mods":
         {
-            "text" : "Моды",
+            "text" : "\u041c\u043e\u0434\u044b",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -92,7 +92,7 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:mods.png",
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "mods"
@@ -100,7 +100,7 @@
         },
         "support":
         {
-            "text" : "Помощь",
+            "text" : "\u041f\u043e\u043c\u043e\u0449\u044c",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -113,15 +113,15 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:bug.png",
-            "action" : 
+            "action" :
             {
                 "type" : "openLink",
 				"link" : "https://goodmc.ru"
             }
-        },		
+        },
         "changelog":
         {
-            "text" : "Изменения",
+            "text" : "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -134,7 +134,7 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:changelogs.png",
-            "action" : 
+            "action" :
             {
                 "type" : "openLink",
 				"link" : "https://goodmc.ru"
@@ -142,7 +142,7 @@
         },
         "language":
         {
-            "text" : "Язык",
+            "text" : "\u042f\u0437\u044b\u043a",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -155,7 +155,7 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:language.png",
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "languages"
@@ -163,7 +163,7 @@
         },
         "website":
         {
-            "text" : "Форум",
+            "text" : "\u0424\u043e\u0440\u0443\u043c",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -176,7 +176,7 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:web.png",
-            "action" : 
+            "action" :
             {
                 "type" : "openLink",
 				"link" : "https://goodmc.ru"
@@ -184,7 +184,7 @@
         },
         "quit":
         {
-            "text" : "Выйти",
+            "text" : "\u0412\u044b\u0439\u0442\u0438",
 			"textOffsetX" : 0,
 			"textOffsetY" : 18,
             "normalTextColor" : -1,
@@ -197,11 +197,11 @@
 			"imageHeight" : 512,
 			"alignment" : "center",
 			"texture" : "mainmenu:exit.png",
-            "action" : 
+            "action" :
             {
                 "type" : "quit"
             }
-        },		
+        },
         "refresh":
         {
             "text" : "",
@@ -211,13 +211,13 @@
             "height" : 20,
 			"alignment" : "top_right",
             "texture" : "mainmenu:refresh.png",
-            "action" : 
+            "action" :
             {
                 "type" : "refresh"
             }
-        }	
+        }
     },
-    
+
     "other":
     {
 		"background":
