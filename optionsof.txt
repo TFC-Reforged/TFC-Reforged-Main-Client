@@ -5,8 +5,8 @@ ofOcclusionFancy:false
 ofSmoothFps:true
 ofSmoothWorld:true
 ofAoLevel:1.0
-ofClouds:0
-ofCloudsHeight:0.0
+ofClouds:1
+ofCloudsHeight:0.74647886
 ofTrees:0
 ofDroppedItems:0
 ofRain:0
@@ -31,7 +31,7 @@ ofLagometer:false
 ofShowFps:false
 ofAutoSaveTicks:4000
 ofBetterGrass:3
-ofConnectedTextures:2
+ofConnectedTextures:3
 ofWeather:true
 ofSky:false
 ofStars:true

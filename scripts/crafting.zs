@@ -45,7 +45,7 @@ recipes.addShapeless(<tfgmc:glue>,[<minecraft:egg>,<minecraft:egg>,<minecraft:su
 // Крафт плотной бумаги
 recipes.addShapeless(<tfgmc:book_pages>,[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>]);
 // Крафт книжной обложки
-mods.terrafirmacraft.LeatherKnapping.addRecipe("small_ceramic_vessel", <tfgmc:book_cover>, 
+mods.terrafirmacraft.LeatherKnapping.addRecipe("small_ceramic_vessel", <tfgmc:book_cover>,
 "XXXXX",
 "XX   ",
 "XX   ",
@@ -105,3 +105,11 @@ recipes.addShaped(<rustic:liquid_barrel>,
 recipes.addShapeless(<fastlogblock:infoitem>,[<tfgmc:book_cover>,<tfgmc:book_pages>,<tfgmc:glue>,<minecraft:rotten_flesh>]);
 // Крафты TerraFirmaThings
 recipes.remove(<tfcthings:pig_iron_carrot>);
+// Удаляем лишние рецепты minecraft
+recipes.removeByMod("minecraft");
+recipes.remove(<minecraft:tnt>);
+recipes.remove(<minecraft:observer>);
+recipes.remove(<minecraft:repeater>);
+recipes.remove(<minecraft:comparator>);
+recipes.remove(<minecraft:hopper>);
+recipes.remove(<minecraft:daylight_detector>);
