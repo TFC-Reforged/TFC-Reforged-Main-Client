@@ -113,3 +113,37 @@ recipes.remove(<minecraft:repeater>);
 recipes.remove(<minecraft:comparator>);
 recipes.remove(<minecraft:hopper>);
 recipes.remove(<minecraft:daylight_detector>);
+// Крафты Blockcraftery
+recipes.removeByMod("Blockcraftery");
+recipes.addShaped(<blockcraftery:editable_block>,
+ [[<minecraft:stick>,null,<minecraft:stick>],
+  [null,<ore:plankWood>,null],
+  [<minecraft:stick>,null,<minecraft:stick>]]);
+recipes.addShaped(<blockcraftery:editable_block_reinforced>,
+ [[<rustic:beeswax>,<tfc:metal/nugget/wrought_iron>,<rustic:beeswax>],
+  [<tfc:metal/nugget/wrought_iron>,<blockcraftery:editable_block>,<tfc:metal/nugget/wrought_iron>],
+  [<rustic:beeswax>,<tfc:metal/nugget/wrought_iron>,<rustic:beeswax>]]);
+recipes.addShaped(<blockcraftery:editable_slab>* 3,
+ [[null,null,null],
+  [<blockcraftery:editable_block>,<blockcraftery:editable_block>,<blockcraftery:editable_block>],
+  [null,null,null]]);
+recipes.addShaped(<blockcraftery:editable_slab>* 3,
+ [[<blockcraftery:editable_block>,<blockcraftery:editable_block>,<blockcraftery:editable_block>],
+  [null,null,null],
+  [null,null,null]]);
+recipes.addShaped(<blockcraftery:editable_slab>* 3,
+ [[null,null,null],
+  [null,null,null],
+  [<blockcraftery:editable_block>,<blockcraftery:editable_block>,<blockcraftery:editable_block>]]);
+recipes.addShaped(<blockcraftery:editable_slab_reinforced>* 3,
+ [[null,null,null],
+  [<blockcraftery:editable_block_reinforced>,<blockcraftery:editable_block_reinforced>,<blockcraftery:editable_block_reinforced>],
+  [null,null,null]]);
+recipes.addShaped(<blockcraftery:editable_slab_reinforced>* 3,
+ [[<blockcraftery:editable_block_reinforced>,<blockcraftery:editable_block_reinforced>,<blockcraftery:editable_block_reinforced>],
+  [null,null,null],
+  [null,null,null]]);
+recipes.addShaped(<blockcraftery:editable_slab_reinforced>* 3,
+ [[null,null,null],
+  [null,null,null],
+  [<blockcraftery:editable_block_reinforced>,<blockcraftery:editable_block_reinforced>,<blockcraftery:editable_block_reinforced>]]);
